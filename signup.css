@@ -1,0 +1,87 @@
+.mentorlogo{
+    width: 100px;
+    
+}
+#logo{
+    padding-left: 10%;
+
+}
+.input{
+    padding: 15px 70px;
+    border: solid 2px;
+
+}
+.or{
+    padding-left: 30%;
+}
+button{
+    padding: 15px 135px;
+    border :solid 2px;
+
+}
+.google{
+    padding:14px 100px ;
+    border:solid 2px;
+    text-decoration: none;
+
+}
+#forms{
+
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: solid 1px;
+    width: 500px;  
+    margin-left: 35%;
+    padding-left: 10%;
+        
+    }
+    
+    
+
+
+.signin{
+    padding-left: 9%;
+    font-size:large;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (min-width:280px) and (max-width: 460px){
+    #forms{
+
+        padding: 0px 20px;
+        border-radius: 15px;
+        border: solid 1px;
+        width: 210px;  
+        margin-left: 5%;
+        padding-left: 5%;
+        margin-right: 2%;
+            
+        }
+        .input{
+            padding: 15px 20px;
+            border: solid 2px;
+        
+        }
+        button{
+            padding: 15px 80px;
+            border :solid 2px;
+        
+        }
+        .google{
+            padding:14px 50px ;
+            border:solid 2px;
+            text-decoration: none;
+        
+        }
+        .or{
+            padding-left: 45%;
+        }
+}
+    
+
+
+

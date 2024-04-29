@@ -1,0 +1,46 @@
+.logo{
+    width: 100px;
+    
+}
+.input{
+    padding: 10px 70px;
+    border: solid 2px;
+}
+.Login{
+    padding:15px 148px;
+    border: solid 2px;
+    
+
+}
+#login{
+    margin-left: 34%; 
+    margin-right: 30%;
+    border:solid 1px;
+    padding: 10%;
+    margin-bottom: 10px;
+  
+    
+}
+@media screen and (min-width:280px) and (max-width: 460px){
+    #login{
+        margin-left: 4%; 
+        margin-right: 3%;
+        border:solid 1px;
+        padding: 10%;
+        margin-bottom: 0px;
+        
+      
+        
+    }
+    .input{
+        padding: 10px 1px;
+        border: solid 2px;
+    }
+    .Login{
+        padding:10px 70px;
+        border: solid 2px;
+        
+    
+    }
+    
+    }

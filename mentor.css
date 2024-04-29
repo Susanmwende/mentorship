@@ -1,0 +1,93 @@
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+a:hover{
+    color: grey;
+    
+}
+.navbar ul{
+    overflow: hidden;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 60px;
+}
+li{
+    display: inline-block;
+    
+    
+}
+li a{
+    margin-right: 50px;
+    font-weight: bold;
+    
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav{
+    padding-right: 30px;
+}
+.logo{
+    width: 100px;
+}
+#profile{
+    display: flex;
+    gap: 60px;
+}
+.image{
+    border-radius: 50%;
+    width: 400px;
+    
+
+}
+#form{
+    margin-left: 30%;
+}
+#profiles{
+    margin-left: 30%;
+}
+#mentor{
+    padding-left: 100px;
+}
+#forms{
+    font-size: x-large;
+    padding-top: 5%;
+}
+p{
+    font-size: x-large;
+}
+
+@media screen and (min-width:280px) and (max-width: 460px){
+    #profile{
+        display: grid;
+        gap: 30px;
+    }
+
+    .image{
+        border-radius: 50%;
+        width: 150px;
+        
+        
+    
+    }
+    .logo{
+        width: 50px;
+    }
+    #mentor{
+        padding-left: 0px;
+    }
+    #forms{
+        font-size: small;
+        padding-top: 5%;
+    }
+    p{
+        font-size: large;
+    }
+
+}

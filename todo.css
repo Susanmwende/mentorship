@@ -1,0 +1,153 @@
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+a:hover{
+    color: grey;
+    
+}
+.navbar ul{
+    overflow: hidden;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 60px;
+}
+li{
+    display: inline-block;
+    
+    
+}
+li a{
+    margin-right: 50px;
+    font-weight: bold;
+    
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav{
+    padding-right: 30px;
+}
+.logo{
+    width: 100px;
+}
+#list{
+    display: flex;
+    gap: 350px;
+    padding-left: 40%;
+}
+.ul{
+  display: flex;
+
+}
+#form{
+    border: solid 1px;
+    
+}
+#text{
+  padding-left: 40%;
+}
+h2{
+  font-size: xx-large;
+}
+.todo-list{
+  width: 150%;
+  max-width: 540px;
+  background-color: #fff;
+  margin: 180px auto 20px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 7%;
+  
+  
+  
+  
+  
+}
+.row{
+  display: flex;
+  gap: 10%;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  margin-top:-10%;
+  
+  
+  
+
+}
+#input-box{
+  flex: 1;
+  border: 1px solid;
+  background-color: transparent;
+  padding: 15px 10px;
+  border-radius: 5px;
+  
+  
+  
+}
+.button{
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+ul{
+  display: grid;
+}
+@media screen and (min-width:280px) and (max-width: 460px){
+  #input-box{
+    flex: 1;
+    border: 1px solid;
+    background-color: transparent;
+    padding: 15px 10px;
+    border-radius: 5px;
+    
+    
+    
+  }
+  .row{
+    display: grid;
+    gap: 10%;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    margin-top:-80%;
+    
+    
+    
+  
+  }
+  .button{
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .todo-list{
+    width: 70%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 180px auto 20px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 10%;
+    
+    
+    
+    
+    
+  }
+  .ul{
+    display: grid;
+  
+  }
+  #list{
+    display: grid;
+    gap: 0px;
+    padding-left: 40%;
+}
+}
+
+
+

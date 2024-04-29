@@ -1,0 +1,68 @@
+#landingpage{
+  
+
+    
+        margin-left: 30%; 
+        margin-right: 34%;
+        border:solid 1px;
+        padding: 5%;
+        margin-bottom: 40px;
+        margin-top:4% ;
+        padding-left: 9%;
+    
+        
+    }
+      
+
+#logo{
+    justify-content: center;
+
+}
+button{
+    padding:15px 160px;
+    border: solid 2px;
+    
+    
+}
+.fontsize{
+    font-size:x-large;
+    padding-left: 2%;
+    
+}
+@media screen and (min-width:280px) and (max-width: 460px){
+    .fontsize{
+        font-size:large;
+        padding-left: 2%;
+        
+    }
+    #landingpage{
+  
+
+    
+        margin-left: 3%; 
+        margin-right: 4%;
+        border:solid 1px;
+        padding: 5%;
+        margin-bottom: 10px;
+        margin-top:2% ;
+        padding-left: 10%;
+    
+        
+    }
+    button{
+        padding:15px 90px;
+        border: solid 2px;
+        
+        
+    }
+
+.mentorlogo{
+    width: 100px;
+    padding-left: 25%;
+}
+
+}
+    
+
+
+

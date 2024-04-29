@@ -1,0 +1,98 @@
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+a:hover{
+    color: grey;
+    
+}
+.navbar ul{
+    overflow: hidden;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 60px;
+}
+li{
+    display: inline-block;
+    
+    
+}
+li a{
+    margin-right: 50px;
+    font-weight: bold;
+    
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav{
+    padding-right: 30px;
+}
+.logo{
+    width: 100px;
+}
+
+
+#book{
+    display: flex;
+    gap: 15%;
+}
+p{
+
+font-size: large;   
+font-family:'Times New Roman', Times, serif;   
+font-weight: bold;   
+text-align:left;
+position: relative;
+top: 130px;
+
+}
+.born{
+ height: 500px;
+}
+#BornACrime{
+position: relative;
+left: 10%;
+top: 150px;
+
+}
+@media screen and (min-width:280px) and (max-width: 460px){
+    #book{
+        display: grid;
+        gap: 7%;
+    }
+    #BornACrime{
+        position: relative;
+        left: 5%;
+        top: 150px;
+        
+        }
+        .born{
+            height: 200px;
+           }
+           .navdiv{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        p{
+
+            font-size: large;   
+            font-family:'Times New Roman', Times, serif;   
+            font-weight: bold;   
+            text-align:left;
+            position: relative;
+            top: 130px;
+            padding-left: -4%;
+            
+            }
+            ul{
+                display: grid;
+            }
+}
