@@ -44,21 +44,20 @@ li a{
 }
 p{
 
-font-size: large;   
+font-size: x-large;   
 font-family:'Times New Roman', Times, serif;   
-font-weight: bold;   
 text-align:left;
-position: relative;
-top: 130px;
+/* position: relative; */
+/* top: 130px; */
 
 }
 .born{
- height: 500px;
+ height: 900px;
 }
 #BornACrime{
 position: relative;
 left: 10%;
-top: 150px;
+/* top: 150px; */
 
 }
 @media screen and (min-width:280px) and (max-width: 460px){
